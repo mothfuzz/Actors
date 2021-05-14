@@ -1,4 +1,4 @@
-ACTORS
+# ACTORS
 
 This is a proof-of-concept game-oriented actor system implemented in C.
 
