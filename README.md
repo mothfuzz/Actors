@@ -22,7 +22,7 @@ Features include but are not limited to:
 It's pretty fast. Not the fastest in the world but there are many areas of improvement.
 My tests without collision detection & no multithreading are able to run up to around 70k actors at 60fps.
 With multithreading & proper synchronization I could make it much MUCH faster.
-With a really bad O(n^2) collision detection algorithm I can get between 500-1000 actors. Blame the algorithm.
+With a really bad O(n^2) collision detection algorithm I can get between 500-1000 actors. A better collision algorithm will likely perform much better.
 
 How to implement:
 
