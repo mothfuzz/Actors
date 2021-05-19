@@ -105,7 +105,7 @@ A Service:
 
 ``` c
 //Services must have the following 5 functions in their defintion:
-//a subscribe function which returns the services' internal data type (a handle to it)
+//a subscribe function which returns a handle to the service's data for a particular actor
 //an unsubscribe function
 //(optionally) an update function
 //an initialization function for the whole service
