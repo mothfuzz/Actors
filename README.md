@@ -76,7 +76,7 @@ int update_my_actor(void *a) {
 struct spawner my_actor_spawner = {sizeof(struct my_actor), init_my_actor, update_my_actor}
 
 //then you can spawn a new my_actor using spawn:
-struct my_actor *m = spawn(&my_actor);
+struct my_actor *m = spawn(&my_actor_spawner);
 
 ```
 
