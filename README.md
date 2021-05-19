@@ -105,7 +105,7 @@ A Service:
 
 ``` c
 //Services must have the following 5 functions in their defintion:
-//a subscribe function which returns the services' internal data type
+//a subscribe function which returns the services' internal data type (a handle to it)
 //an unsubscribe function
 //(optionally) an update function
 //an initialization function for the whole service
@@ -121,6 +121,7 @@ struct service my_service = {
 
 //services are associated with a particular data type which the Actor has a reference to. 
 //For the renderer it might be a sprite or model. For physics it might be a rigidbody. Etc. Etc.
+//These represent handles into the service for actors subscribed to it.
 struct my_service_item {
     int value;
 };
